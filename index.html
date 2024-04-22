@@ -1,17 +1,89 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Hello world!!
-        </title>
-
-    </head>
-
-    <body>
-        HyperText Markup Language(HTML) is standard 
-        markup language for creating web pages and applications. 
-    </body>
-
-
-
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김연재의 홈페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #5752C1;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #5285C1;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            color: #666;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            background-color: #52BDC1;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .button:hover {
+            background-color: #52C18E;
+        }
+        footer {
+            background-color: #5752C1;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>김연재의 홈페이지</h1>
+    </header>
+    <nav>
+        <a href="#">홈</a>
+        <a href="#">소개</a>
+        <a href="#">포트폴리오</a>
+        <a href="#">블로그</a>
+        <a href="#">연락</a>
+    </nav>
+    <section>
+        <h2>안녕하세요! 김연재 입니다.</h2>
+        <p>이곳은 HYCU Web Design 수업 과제를 위해 구성한 공간입니다:)</p>
+        <div class="button">
+            <a href="https://hoinjm.github.io/web_design/assignment/class5_book.html">과제1: 책 소개</a>
+        </div>
+        <div class="button">
+            <a href="#">과제2: 캐릭터 소개</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 나의 홈페이지</p>
+    </footer>
+</body>
 </html>
