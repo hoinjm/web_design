@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
+    
+}
+
+header{
+    background: rgb(245, 213, 33);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+header img{
+    border-radius: 200px;
+    border: 20px solid #fff
+}
+
+header h1{
+    font-size: 50px;
+    color:rgb(27, 48, 238);
+    font-family: "Gloria Hallelujah", cursive;
+
+
+}
+
+h1, h2{
+    font-family: "Gloria Hallelujah", cursive;
+
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img{
+    max-width: 100%;
+
+}
+
+h2{
+    font-size: 30px;
+    color:cornflowerblue;
+    margin: 40px 0 10px;
+}
+
+
+a{
+    color: blueviolet;
+}
+
+a:hover{
+    color:rgb(248, 182, 223);
+    background-color: rgb(218, 69, 210);
+}
+
+footer{
+    background: rgb(33, 245, 114);
+    text-align: center;
+    color: rgb(53, 35, 219);
+    padding: 50px;
+
+}
+
+footer a{
+    color: white;
+}
+
+footer p{
+    margin: 0px;
+}
+
+footer a:hover{
+    opacity: 0.5;
+    background-color: transparent;
+}
+
+p.caption{
+    color:cadetblue;
+    font-style: italic;
+    margin-top: 0;
+}
